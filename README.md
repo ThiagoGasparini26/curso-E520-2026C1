@@ -1,0 +1,2 @@
+# curso-E520-2026C1
+Carpeta para organizar las tareas del curso E520 Ciencias de datos para economía y negocios.
