@@ -1,0 +1,803 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260320122005
+Nombre de usuario: tsg-nbk-003-ba\thiago
+Usuario RunAs: tsg-nbk-003-ba\thiago
+Nombre de la configuración: 
+Máquina: TSG-NBK-003-BA (Microsoft Windows NT 10.0.22631.0)
+Aplicación host: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 10368
+PSVersion: 5.1.22621.6133
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.6133
+BuildVersion: 10.0.22621.6133
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\thiago\Documents\PowerShell_transcript.TSG-NBK-003-BA.2sHv8fP5.20260320122005.txt
+PS C:\Users\thiago\Documents> cd ~ 
+PS C:\Users\thiago> cd CienciasDeDatos
+PS C:\Users\thiago\CienciasDeDatos> cd ~/Desktop
+PS C:\Users\thiago\Desktop> ls
+
+
+    Directorio: C:\Users\thiago\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/3/2026     10:31                Firma digital - documentos
+d-----          9/3/2026     11:28                Firma Digital - Expediente Electrónico
+d-----         2/10/2025     11:37                Helipagos Agosto 2024
+d-----         2/10/2025     11:09                Helipagos Julio 2024
+d-----         2/10/2025     11:08                Helipagos Noviembre 2024
+d-----         2/10/2025     13:38                Helipagos Octubre 2024
+d-----         2/10/2025     13:11                Helipagos Septiembre 2024
+d-----        11/12/2025     10:17                Legajo Único
+d-----         26/2/2026     14:39                Macroclick 2024
+d-----          2/3/2026     12:03                Macroclick 2025
+d-----          5/3/2026     10:16                Macroclick 2026
+d-----          9/2/2026     12:29                Mantenimiento Rentax
+d-----        20/11/2025     10:47                NOTAS
+d-----         19/3/2026     13:02                Proyecto Evolutivo Rentax
+d-----        10/11/2025     12:15                Sin Clave Fiscal
+-a----         12/1/2026     11:30           9522 aprobado.png
+-a----         12/1/2026     10:25          33602 CLEVER FUNC LOGO.png
+-a----          9/2/2026     11:37         143940 Informe actividades realizadas 202409.pdf
+-a----          9/2/2026     10:16          21811 NEKTRA LOGO AZUL.png
+-a----          9/2/2026     10:16          10944 NEKTRA LOGO BLANCO.png
+-a----          9/2/2026     12:35           9303 SIRIUS SOFTWARE LOGO.png
+-a----         12/1/2026     11:53          11429 TSG LOGO.png
+
+
+PS C:\Users\thiago\Desktop> mv CienciasDeDatos
+mv : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ mv CienciasDeDatos
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago\Desktop\CienciasDeDatos:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ mv CienciasDeDatos
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago\Desktop\CienciasDeDatos:String) [Move-Item],
+   ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\thiago\Desktop> mv CienciasDeDatos ~/Desktop
+mv : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ mv CienciasDeDatos ~/Desktop
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago\Desktop\CienciasDeDatos:String) [Move-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+mv : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ mv CienciasDeDatos ~/Desktop
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago\Desktop\CienciasDeDatos:String) [Move-Item],
+   ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Users\thiago\Desktop> cd CienciasDeDatos
+cd : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ cd CienciasDeDatos
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago\Desktop\CienciasDeDatos:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ cd CienciasDeDatos
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago\Desktop\CienciasDeDatos:String) [Set-Location
+   ], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\thiago\Desktop> cd \
+PS C:\> cd CienciasDeDatos
+cd : No se encuentra la ruta de acceso 'C:\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ cd CienciasDeDatos
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\CienciasDeDatos:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\CienciasDeDatos' porque no existe.
+En línea: 1 Carácter: 1
++ cd CienciasDeDatos
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\CienciasDeDatos:String) [Set-Location], ItemNotFoundExcept
+   ion
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\> cd ~/Desktop
+PS C:\Users\thiago\Desktop> ls
+
+
+    Directorio: C:\Users\thiago\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/3/2026     10:31                Firma digital - documentos
+d-----          9/3/2026     11:28                Firma Digital - Expediente Electrónico
+d-----         2/10/2025     11:37                Helipagos Agosto 2024
+d-----         2/10/2025     11:09                Helipagos Julio 2024
+d-----         2/10/2025     11:08                Helipagos Noviembre 2024
+d-----         2/10/2025     13:38                Helipagos Octubre 2024
+d-----         2/10/2025     13:11                Helipagos Septiembre 2024
+d-----        11/12/2025     10:17                Legajo Único
+d-----         26/2/2026     14:39                Macroclick 2024
+d-----          2/3/2026     12:03                Macroclick 2025
+d-----          5/3/2026     10:16                Macroclick 2026
+d-----          9/2/2026     12:29                Mantenimiento Rentax
+d-----        20/11/2025     10:47                NOTAS
+d-----         19/3/2026     13:02                Proyecto Evolutivo Rentax
+d-----        10/11/2025     12:15                Sin Clave Fiscal
+-a----         12/1/2026     11:30           9522 aprobado.png
+-a----         12/1/2026     10:25          33602 CLEVER FUNC LOGO.png
+-a----          9/2/2026     11:37         143940 Informe actividades realizadas 202409.pdf
+-a----          9/2/2026     10:16          21811 NEKTRA LOGO AZUL.png
+-a----          9/2/2026     10:16          10944 NEKTRA LOGO BLANCO.png
+-a----          9/2/2026     12:35           9303 SIRIUS SOFTWARE LOGO.png
+-a----         12/1/2026     11:53          11429 TSG LOGO.png
+
+
+PS C:\Users\thiago\Desktop> mkdir CienciasDeDatos
+
+
+    Directorio: C:\Users\thiago\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:26                CienciasDeDatos
+
+
+PS C:\Users\thiago\Desktop> mkdir dir1 dir2 dir3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\thiago\Desktop> ls
+
+
+    Directorio: C:\Users\thiago\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:26                CienciasDeDatos
+d-----          9/3/2026     10:31                Firma digital - documentos
+d-----          9/3/2026     11:28                Firma Digital - Expediente Electrónico
+d-----         2/10/2025     11:37                Helipagos Agosto 2024
+d-----         2/10/2025     11:09                Helipagos Julio 2024
+d-----         2/10/2025     11:08                Helipagos Noviembre 2024
+d-----         2/10/2025     13:38                Helipagos Octubre 2024
+d-----         2/10/2025     13:11                Helipagos Septiembre 2024
+d-----        11/12/2025     10:17                Legajo Único
+d-----         26/2/2026     14:39                Macroclick 2024
+d-----          2/3/2026     12:03                Macroclick 2025
+d-----          5/3/2026     10:16                Macroclick 2026
+d-----          9/2/2026     12:29                Mantenimiento Rentax
+d-----        20/11/2025     10:47                NOTAS
+d-----         19/3/2026     13:02                Proyecto Evolutivo Rentax
+d-----        10/11/2025     12:15                Sin Clave Fiscal
+-a----         12/1/2026     11:30           9522 aprobado.png
+-a----         12/1/2026     10:25          33602 CLEVER FUNC LOGO.png
+-a----          9/2/2026     11:37         143940 Informe actividades realizadas 202409.pdf
+-a----          9/2/2026     10:16          21811 NEKTRA LOGO AZUL.png
+-a----          9/2/2026     10:16          10944 NEKTRA LOGO BLANCO.png
+-a----          9/2/2026     12:35           9303 SIRIUS SOFTWARE LOGO.png
+-a----         12/1/2026     11:53          11429 TSG LOGO.png
+
+
+PS C:\Users\thiago\Desktop> cd CienciasDeDatos
+PS C:\Users\thiago\Desktop\CienciasDeDatos> mkdir dir1 dir2 dir3
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'dir2'.
+En línea: 1 Carácter: 1
++ mkdir dir1 dir2 dir3
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> mkdir prueba
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:28                prueba
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> pwd
+
+Path
+----
+C:\Users\thiago\Desktop\CienciasDeDatos
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:28                prueba
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> cd prueba
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir dir1,dir2,dir3
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:28                dir1
+d-----         20/3/2026     12:28                dir2
+d-----         20/3/2026     12:28                dir3
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mv dir1 CienciasDeDatos
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> cd ..
+PS C:\Users\thiago\Desktop\CienciasDeDatos> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:28                prueba
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> cd dir1
+cd : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ cd dir1
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago...iasDeDatos\dir1:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\thiago\Desktop\CienciasDeDatos\dir1' porque no existe.
+En línea: 1 Carácter: 1
++ cd dir1
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\thiago...iasDeDatos\dir1:String) [Set-Location], Ite
+   mNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> cd prueba
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:28                CienciasDeDatos
+d-----         20/3/2026     12:28                dir2
+d-----         20/3/2026     12:28                dir3
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:28                dir2
+d-----         20/3/2026     12:28                dir3
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mv dir2 ~/desktop
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:28                dir3
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir dir1
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:30                dir1
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:30                dir1
+d-----         20/3/2026     12:28                dir3
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir prueba/dir1/bienvenido
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba\prueba\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:30                bienvenido
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:30                dir1
+d-----         20/3/2026     12:28                dir3
+d-----         20/3/2026     12:30                prueba
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:30                dir1
+d-----         20/3/2026     12:28                dir3
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> cd ..
+PS C:\Users\thiago\Desktop\CienciasDeDatos> mkdir ~/prueba/dir1/bienvenido
+
+
+    Directorio: C:\Users\thiago\prueba\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:32                bienvenido
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:31                prueba
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos> cd prueba
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:30                dir1
+d-----         20/3/2026     12:28                dir3
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> cd dir1
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir1> ls
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir1> ls
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir1> mkdir ~/prueba/dir1/bienvenido2
+
+
+    Directorio: C:\Users\thiago\prueba\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:33                bienvenido2
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir1> ls
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir1> cd../../..
+cd../../.. : El término 'cd../../..' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es 
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ cd../../..
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cd../../..:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cd../../.. : El término 'cd../../..' no se reconoce como nombre de un cmdlet, función, archivo de script o
+programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ cd../../..
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cd../../..:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir1> cd ../
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> cd ..
+PS C:\Users\thiago\Desktop\CienciasDeDatos> cd prueba
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> tree
+Listado de rutas de carpetas
+El número de serie del volumen es D25F-7397
+C:.
+├───dir1
+└───dir3
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir /dir1/bienvenido
+
+
+    Directorio: C:\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:34                bienvenido
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> tree
+Listado de rutas de carpetas
+El número de serie del volumen es D25F-7397
+C:.
+├───dir1
+└───dir3
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir ~/Desktop/CienciasDeDatos/prueba/dir1/Bienvenido
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:35                Bienvenido
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> tree
+Listado de rutas de carpetas
+El número de serie del volumen es D25F-7397
+C:.
+├───dir1
+│   └───Bienvenido
+└───dir3
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> makedir -p dir4/dir5/dir6
+makedir : El término 'makedir' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es 
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ makedir -p dir4/dir5/dir6
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (makedir:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+makedir : El término 'makedir' no se reconoce como nombre de un cmdlet, función, archivo de script o
+programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ makedir -p dir4/dir5/dir6
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (makedir:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir -p dir4/dir5/dir6
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:36                dir6
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> tree
+Listado de rutas de carpetas
+El número de serie del volumen es D25F-7397
+C:.
+├───dir1
+│   └───Bienvenido
+├───dir3
+└───dir4
+    └───dir5
+        └───dir6
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir another folder
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'folder'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir another folder
+>> ErrorTerminación(mkdir): "No se encuentra ningún parámetro de posición que acepte el argumento 'folder'."
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+mkdir : No se encuentra ningún parámetro de posición que acepte el argumento 'folder'.
+En línea: 1 Carácter: 1
++ mkdir another folder
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:28                dir3
+d-----         20/3/2026     12:36                dir4
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> mkdir another, folder
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:41                another
+d-----         20/3/2026     12:41                folder
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:41                another
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:28                dir3
+d-----         20/3/2026     12:36                dir4
+d-----         20/3/2026     12:41                folder
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> rm
+>> ErrorTerminación(): "Se ha detenido la canalización."
+>> ErrorTerminación(): "Se ha detenido la canalización."
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:41                another
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:28                dir3
+d-----         20/3/2026     12:36                dir4
+d-----         20/3/2026     12:41                folder
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> rm dir3
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:41                another
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:36                dir4
+d-----         20/3/2026     12:41                folder
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> rm another, folder
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:36                dir4
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> rm dir4
+Confirmar
+El elemento situado en C:\Users\thiago\Desktop\CienciasDeDatos\prueba\dir4 tiene elementos secundarios y no se especificó el parámetro Recurse. Si continúa, se quitarán todos los secundarios junto con el elemento. ¿Está seguro de que desea continuar?
+&Sí  Sí a t&odo  &No  No a &todo  S&uspender
+t
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:36                dir4
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> help
+
+
+TEMA
+    Sistema de ayuda de Windows PowerShell
+
+DESCRIPCIÓN BREVE
+    Muestra ayuda acerca de los cmdlets y los conceptos de Windows PowerShell.
+
+DESCRIPCIÓN LARGA
+    En la ayuda de Windows PowerShell se describen los cmdlets, las funciones,
+    los scripts y los módulos de Windows PowerShell y se explican conceptos,
+    incluidos los elementos del lenguaje Windows PowerShell.
+
+    Windows PowerShell no incluye archivos de ayuda, pero puede leer los
+    temas de ayuda en línea o usar el cmdlet Update-Help para descargar archivos de ayuda
+    en el equipo y, a continuación, usar el cmdlet Get-Help para mostrar los temas
+    de ayuda en la línea de comandos.
+
+    También puede usar el cmdlet Update-Help para descargar archivos de ayuda
+    actualizados a medida que se publiquen, para que el contenido de ayuda local nunca se quede obsoleto.
+
+    Sin archivos de ayuda, Get-Help obtiene ayuda generada automáticamente para los cmdlets,
+    las funciones y los scripts.
+
+
+  AYUDA EN LÍNEA
+    Encontrará ayuda en línea para Windows PowerShell en la Biblioteca de TechNet,
+    a partir de http://go.microsoft.com/fwlink/?LinkID=108518.
+
+    Para abrir la ayuda en línea de cualquier cmdlet o función, escriba:
+
+        Get-Help <nombreDelCmdlet> -Online
+
+  UPDATE-HELP
+    Para descargar e instalar los archivos de ayuda en el equipo:
+
+       1. Inicie Windows PowerShell con la opción "Ejecutar como administrador".
+       2. Escriba:
+
+          Update-Help
+
+    Una vez instalados los archivos de ayuda, puede usar el cmdlet Get-Help para
+    mostrar los temas de ayuda. También puede usar el cmdlet Update-Help para
+    descargar archivos de ayuda actualizados, de modo que los archivos de
+    ayuda locales siempre estén actualizados.
+
+    Para obtener más información acerca del cmdlet Update-Help, escriba:
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:36                dir4
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls /
+
+
+    Directorio: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/6/2025     13:40                inetpub
+d-----          7/5/2022     02:24                PerfLogs
+d-r---         17/3/2026     00:18                Program Files
+d-r---         26/6/2025     09:40                Program Files (x86)
+d-r---         20/3/2026     12:17                Users
+d-----         20/2/2026     14:16                Windows
+-a----          7/8/2025     09:32            108 logUploaderSettings.ini
+-a----          7/8/2025     09:32            108 logUploaderSettings_temp.ini
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls / > archivos-en-raiz.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="inetpub"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="PerfLogs"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Program Files"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Program Files (x86)"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Users"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Windows"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="logUploaderSettings.ini"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="logUploaderSettings_temp.ini"
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> ls
+
+
+    Directorio: C:\Users\thiago\Desktop\CienciasDeDatos\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         20/3/2026     12:35                dir1
+d-----         20/3/2026     12:36                dir4
+-a----         20/3/2026     12:57           2288 archivos-en-raiz.txt
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> cat archivos-en-raiz.txt
+
+
+    Directorio: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/6/2025     13:40                inetpub
+d-----          7/5/2022     02:24                PerfLogs
+d-r---         17/3/2026     00:18                Program Files
+d-r---         26/6/2025     09:40                Program Files (x86)
+d-r---         20/3/2026     12:17                Users
+d-----         20/2/2026     14:16                Windows
+-a----          7/8/2025     09:32            108 logUploaderSettings.ini
+-a----          7/8/2025     09:32            108 logUploaderSettings_temp.ini
+
+
+PS C:\Users\thiago\Desktop\CienciasDeDatos\prueba> stop-transcript 
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260320130227
+**********************
